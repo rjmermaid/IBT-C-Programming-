@@ -1,0 +1,9 @@
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\bin\Debug\Chapter02Program01.exe.config
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\bin\Debug\Chapter02Program01.exe
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\bin\Debug\Chapter02Program01.pdb
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\obj\Debug\Chapter02Program01.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\obj\Debug\Chapter02Program01.Properties.Resources.resources
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\obj\Debug\Chapter02Program01.csproj.GenerateResource.cache
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\obj\Debug\Chapter02Program01.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\obj\Debug\Chapter02Program01.exe
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program01\Chapter02Program01\obj\Debug\Chapter02Program01.pdb
