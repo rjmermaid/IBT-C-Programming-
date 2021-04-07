@@ -1,0 +1,10 @@
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\bin\Debug\Chapter02Program02.exe.config
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\bin\Debug\Chapter02Program02.exe
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\bin\Debug\Chapter02Program02.pdb
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\obj\Debug\Chapter02Program02.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\obj\Debug\Chapter02Program02.frmMain.resources
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\obj\Debug\Chapter02Program02.Properties.Resources.resources
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\obj\Debug\Chapter02Program02.csproj.GenerateResource.cache
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\obj\Debug\Chapter02Program02.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\obj\Debug\Chapter02Program02.exe
+C:\Users\Daniyar\Documents\GitHub\Chapter02Program02\Chapter02Program02\obj\Debug\Chapter02Program02.pdb
