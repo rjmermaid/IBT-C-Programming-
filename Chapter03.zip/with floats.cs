@@ -25,17 +25,17 @@ namespace Chapter03.zip
         private void btnCalc_Click(object sender, EventArgs e)
         {
             bool flag;
-            float operand1;
-            float operand2;
-            float answer;
-            flag = float.TryParse(txtOperand1.Text, out operand1);
+            double operand1;
+            double operand2;
+            double answer;
+            flag = double.TryParse(txtOperand1.Text, out operand1);
             if (flag == false)
             {
                 MessageBox.Show("Enter a whole number", "Input Error");
                 txtOperand1.Focus();
                 return;
             }
-            flag = float.TryParse(txtOperand2.Text, out operand2);
+            flag = double.TryParse(txtOperand2.Text, out operand2);
             if (flag == false)
             {
                 MessageBox.Show("Enter a whole number", "Input Error");
