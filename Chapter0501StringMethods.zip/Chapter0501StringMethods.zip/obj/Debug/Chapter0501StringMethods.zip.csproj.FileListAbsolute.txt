@@ -1,0 +1,10 @@
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\obj\Debug\Chapter0501StringMethods.zip.csprojAssemblyReference.cache
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\obj\Debug\Chapter0501StringMethods.zip.frmMain.resources
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\obj\Debug\Chapter0501StringMethods.zip.Properties.Resources.resources
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\obj\Debug\Chapter0501StringMethods.zip.csproj.GenerateResource.cache
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\obj\Debug\Chapter0501StringMethods.zip.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\bin\Debug\Chapter0501StringMethods.zip.exe.config
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\bin\Debug\Chapter0501StringMethods.zip.exe
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\bin\Debug\Chapter0501StringMethods.zip.pdb
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\obj\Debug\Chapter0501StringMethods.zip.exe
+C:\Users\Daniyar\source\repos\Chapter0501StringMethods.zip\Chapter0501StringMethods.zip\obj\Debug\Chapter0501StringMethods.zip.pdb
