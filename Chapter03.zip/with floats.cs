@@ -25,10 +25,10 @@ namespace Chapter03.zip
         private void btnCalc_Click(object sender, EventArgs e)
         {
             bool flag;
-            decimal operand1;
+            decimal 3operand1;
             decimal operand2;
             decimal answer;
-            flag = decimal.TryParse(txtOperand1.Text, out operand1);
+            flag = decimal.TryParse(txtOperand1.Text, out 3operand1);
             if (flag == false)
             {
                 MessageBox.Show("Enter a whole number", "Input Error");
@@ -42,8 +42,8 @@ namespace Chapter03.zip
                 txtOperand2.Focus();
                 return;
             }
-            answer = operand1 / operand2;
-            txtResult.Text = operand1.ToString() + " divided by " + operand2.ToString() + " equals " + answer.ToString();
+            answer = 3operand1 / operand2;
+            txtResult.Text = 3operand1.ToString + " divided by " + operand2.ToString() + " equals " + answer.ToString();
             txtResult.Visible = true;
 
         }
