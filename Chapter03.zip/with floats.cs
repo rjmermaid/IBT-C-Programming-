@@ -25,17 +25,17 @@ namespace Chapter03.zip
         private void btnCalc_Click(object sender, EventArgs e)
         {
             bool flag;
-            double operand1;
-            double operand2;
-            double answer;
-            flag = double.TryParse(txtOperand1.Text, out operand1);
+            decimal operand1;
+            decimal operand2;
+            decimal answer;
+            flag = decimal.TryParse(txtOperand1.Text, out operand1);
             if (flag == false)
             {
                 MessageBox.Show("Enter a whole number", "Input Error");
                 txtOperand1.Focus();
                 return;
             }
-            flag = double.TryParse(txtOperand2.Text, out operand2);
+            flag = decimal.TryParse(txtOperand2.Text, out operand2);
             if (flag == false)
             {
                 MessageBox.Show("Enter a whole number", "Input Error");
