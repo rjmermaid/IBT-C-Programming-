@@ -1,0 +1,10 @@
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\obj\Debug\Chapter05StringMethods.zip.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\obj\Debug\Chapter05StringMethods.zip.frmMain.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\obj\Debug\Chapter05StringMethods.zip.Properties.Resources.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\obj\Debug\Chapter05StringMethods.zip.csproj.GenerateResource.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\obj\Debug\Chapter05StringMethods.zip.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\bin\Debug\Chapter05StringMethods.zip.exe.config
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\bin\Debug\Chapter05StringMethods.zip.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\bin\Debug\Chapter05StringMethods.zip.pdb
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\obj\Debug\Chapter05StringMethods.zip.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter05StringMethods.zip\Chapter05StringMethods.zip\obj\Debug\Chapter05StringMethods.zip.pdb

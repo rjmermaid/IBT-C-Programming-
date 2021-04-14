@@ -49,10 +49,10 @@ namespace Chapter05StringMethods.zip
             this.txtRemove = new System.Windows.Forms.TextBox();
             this.txtReplaceChars = new System.Windows.Forms.TextBox();
             this.txtReplaceResult = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblIndexOf = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.lblSubstring = new System.Windows.Forms.Label();
             this.txtSearchIndex = new System.Windows.Forms.TextBox();
             this.txtLastIndexOf = new System.Windows.Forms.TextBox();
             this.txtEndIndex = new System.Windows.Forms.TextBox();
@@ -67,90 +67,101 @@ namespace Chapter05StringMethods.zip
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Location = new System.Drawing.Point(82, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.Size = new System.Drawing.Size(71, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "String to test:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Location = new System.Drawing.Point(78, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 13);
+            this.label2.Size = new System.Drawing.Size(75, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "String.Length:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Location = new System.Drawing.Point(63, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 13);
+            this.label3.Size = new System.Drawing.Size(90, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "String.ToUpper():";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label4.Location = new System.Drawing.Point(63, 105);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 13);
+            this.label4.Size = new System.Drawing.Size(90, 15);
             this.label4.TabIndex = 3;
             this.label4.Text = "String.ToLower():";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label5.Location = new System.Drawing.Point(44, 134);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 13);
+            this.label5.Size = new System.Drawing.Size(109, 15);
             this.label5.TabIndex = 4;
             this.label5.Text = "Search for character:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label6.Location = new System.Drawing.Point(25, 163);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 13);
+            this.label6.Size = new System.Drawing.Size(128, 15);
             this.label6.TabIndex = 5;
             this.label6.Text = "Search for last character:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label7.Location = new System.Drawing.Point(12, 196);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 13);
+            this.label7.Size = new System.Drawing.Size(141, 15);
             this.label7.TabIndex = 6;
             this.label7.Text = "Extract substring from index:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.Location = new System.Drawing.Point(45, 235);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 13);
+            this.label8.Size = new System.Drawing.Size(108, 15);
             this.label8.TabIndex = 7;
             this.label8.Text = "txtInput.Remove() = :";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label9.Location = new System.Drawing.Point(121, 269);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(30, 13);
+            this.label9.Size = new System.Drawing.Size(32, 15);
             this.label9.TabIndex = 8;
             this.label9.Text = "Find:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label10.Location = new System.Drawing.Point(41, 301);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 13);
+            this.label10.Size = new System.Drawing.Size(108, 15);
             this.label10.TabIndex = 9;
             this.label10.Text = "txtInput.Replace() = :";
             // 
@@ -224,14 +235,14 @@ namespace Chapter05StringMethods.zip
             this.txtReplaceResult.Size = new System.Drawing.Size(495, 20);
             this.txtReplaceResult.TabIndex = 19;
             // 
-            // label11
+            // lblIndexOf
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(370, 134);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(140, 13);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "txtInput.Text.IndexOf(\" \", ) =";
+            this.lblIndexOf.AutoSize = true;
+            this.lblIndexOf.Location = new System.Drawing.Point(370, 134);
+            this.lblIndexOf.Name = "lblIndexOf";
+            this.lblIndexOf.Size = new System.Drawing.Size(140, 13);
+            this.lblIndexOf.TabIndex = 20;
+            this.lblIndexOf.Text = "txtInput.Text.IndexOf(\" \", ) =";
             // 
             // label12
             // 
@@ -251,14 +262,14 @@ namespace Chapter05StringMethods.zip
             this.label13.TabIndex = 22;
             this.label13.Text = "for this many characters";
             // 
-            // label14
+            // lblSubstring
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(449, 199);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(137, 13);
-            this.label14.TabIndex = 23;
-            this.label14.Text = "txrInput.Text.Substring( , ) =";
+            this.lblSubstring.AutoSize = true;
+            this.lblSubstring.Location = new System.Drawing.Point(449, 199);
+            this.lblSubstring.Name = "lblSubstring";
+            this.lblSubstring.Size = new System.Drawing.Size(137, 13);
+            this.lblSubstring.TabIndex = 23;
+            this.lblSubstring.Text = "txrInput.Text.Substring( , ) =";
             // 
             // txtSearchIndex
             // 
@@ -344,10 +355,10 @@ namespace Chapter05StringMethods.zip
             this.Controls.Add(this.txtEndIndex);
             this.Controls.Add(this.txtLastIndexOf);
             this.Controls.Add(this.txtSearchIndex);
-            this.Controls.Add(this.label14);
+            this.Controls.Add(this.lblSubstring);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblIndexOf);
             this.Controls.Add(this.txtReplaceResult);
             this.Controls.Add(this.txtReplaceChars);
             this.Controls.Add(this.txtRemove);
@@ -397,10 +408,10 @@ namespace Chapter05StringMethods.zip
         private System.Windows.Forms.TextBox txtRemove;
         private System.Windows.Forms.TextBox txtReplaceChars;
         private System.Windows.Forms.TextBox txtReplaceResult;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblIndexOf;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblSubstring;
         private System.Windows.Forms.TextBox txtSearchIndex;
         private System.Windows.Forms.TextBox txtLastIndexOf;
         private System.Windows.Forms.TextBox txtEndIndex;
