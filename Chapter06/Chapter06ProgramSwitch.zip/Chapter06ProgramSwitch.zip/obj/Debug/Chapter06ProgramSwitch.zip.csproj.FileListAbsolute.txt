@@ -1,0 +1,10 @@
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\bin\Debug\Chapter06ProgramSwitch.zip.exe.config
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\bin\Debug\Chapter06ProgramSwitch.zip.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\bin\Debug\Chapter06ProgramSwitch.zip.pdb
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\obj\Debug\Chapter06ProgramSwitch.zip.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\obj\Debug\Chapter06ProgramSwitch.zip.frmMain.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\obj\Debug\Chapter06ProgramSwitch.zip.Properties.Resources.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\obj\Debug\Chapter06ProgramSwitch.zip.csproj.GenerateResource.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\obj\Debug\Chapter06ProgramSwitch.zip.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\obj\Debug\Chapter06ProgramSwitch.zip.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter06\Chapter06ProgramSwitch.zip\Chapter06ProgramSwitch.zip\obj\Debug\Chapter06ProgramSwitch.zip.pdb
