@@ -1,0 +1,10 @@
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\bin\Debug\RPSgameForm.exe.config
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\bin\Debug\RPSgameForm.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\bin\Debug\RPSgameForm.pdb
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\obj\Debug\RPSgameForm.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\obj\Debug\RPSgameForm.frmMain.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\obj\Debug\RPSgameForm.Properties.Resources.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\obj\Debug\RPSgameForm.csproj.GenerateResource.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\obj\Debug\RPSgameForm.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\obj\Debug\RPSgameForm.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\RPSgameForm\RPSgameForm\obj\Debug\RPSgameForm.pdb
