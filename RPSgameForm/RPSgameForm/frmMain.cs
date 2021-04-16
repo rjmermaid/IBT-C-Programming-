@@ -35,7 +35,7 @@ namespace RPSgameForm
 
             label1.Text = ("Computer's choice is - " + choices[n]);
 
-            if (choices[n] == "S")
+            if (choices[n] == "Scissors")
             {
                 pictureBox1.Image = imageList1.Images[0];
                 label5.Text = "You win :)";
@@ -43,7 +43,7 @@ namespace RPSgameForm
                 textBox1.Text = winscore.ToString();
 
             }
-            else if (choices[n] == "P")
+            else if (choices[n] == "Paper")
             {
                 pictureBox1.Image = imageList1.Images[1];
                 label5.Text = "You loose :(";
@@ -74,7 +74,7 @@ namespace RPSgameForm
 
             label1.Text = ("Computer's choice is - " + choices[n]);
 
-            if (choices[n] == "R")
+            if (choices[n] == "Rock")
             {
                 pictureBox1.Image = imageList1.Images[2];
                 label5.Text = "You win :)";
@@ -82,7 +82,7 @@ namespace RPSgameForm
                 textBox1.Text = winscore.ToString();
 
             }
-            else if (choices[n] == "S")
+            else if (choices[n] == "Scissors")
             {
                 pictureBox1.Image = imageList1.Images[0];
                 label5.Text = "You loose :(";
@@ -110,7 +110,7 @@ namespace RPSgameForm
             label1.Text = ("Computer's choice is - " + choices[n]);
            
 
-            if (choices[n] == "P")
+            if (choices[n] == "Paper")
             {
                 pictureBox1.Image = imageList1.Images[1];
                 label5.Text = "You win :)";
@@ -118,7 +118,7 @@ namespace RPSgameForm
                 textBox1.Text = winscore.ToString();
 
             }
-            else if (choices[n] == "R")
+            else if (choices[n] == "Rock")
             {
                 pictureBox1.Image = imageList1.Images[2];
                 label5.Text = "You loose :(";
