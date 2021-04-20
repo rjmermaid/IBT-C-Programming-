@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07ProgramTableOfSquares.zip", "Chapter07ProgramTableOfSquares.zip\Chapter07ProgramTableOfSquares.zip.csproj", "{86AA947D-9CF0-441C-8320-D4A0DAC0D31F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86AA947D-9CF0-441C-8320-D4A0DAC0D31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AA947D-9CF0-441C-8320-D4A0DAC0D31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AA947D-9CF0-441C-8320-D4A0DAC0D31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AA947D-9CF0-441C-8320-D4A0DAC0D31F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DB5CE6B-F828-450F-AD1F-6744E3A63C38}
+	EndGlobalSection
+EndGlobal

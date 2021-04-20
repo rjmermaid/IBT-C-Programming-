@@ -138,6 +138,12 @@ namespace RPSgameForm
         {
             Close();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            label5.Text = "";
+            label1.Text = "";
+        }
     }
 }
 

@@ -1,0 +1,10 @@
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\obj\Debug\Calculator.frmMain.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Calculator\Calculator\obj\Debug\Calculator.pdb
