@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,91 +13,130 @@ namespace Calculator
 {
     public partial class frmMain : Form
     {
+        double result = 0;
+        string operation = "";
+        bool isOperationPerformed = false;
         public frmMain()
         {
             InitializeComponent();
+            string[] a = { "Miles", "Kilometres", "Pounds", "Kilograms" };
+            string[] b = { "Kilometres", "Miles", "Kilograms", "Pounds" };
+            comboBox1.DataSource = a;
+            comboBox2.DataSource = b;
+            panel1.Visible = false;
+            panel2.Visible = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonC_Click(object sender, EventArgs e)
         {
-            textBox1.Text += "1";
+            textBox1.Text = "0";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button_click(object sender, EventArgs e)
         {
-            textBox1.Text += "2";
+            if ((textBox1.Text == "0") || (isOperationPerformed))
+                textBox1.Clear();
+
+            isOperationPerformed = false;
+            Button button = (Button)sender;
+            textBox1.Text += button.Text;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void operator_click(object sender, EventArgs e)
         {
-            textBox1.Text += "3";
+            Button button = (Button)sender;
+            operation = button.Text;
+            result = double.Parse(textBox1.Text, CultureInfo.InvariantCulture);
+            label1.Text = result + " " + operation;
+            isOperationPerformed = true;
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void buttonErase_Click(object sender, EventArgs e)
         {
-            textBox1.Text += "4";
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "5";
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "6";
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "7";
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "8";
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "9";
-        }
-
-        private void button00_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "00";
-        }
-
-        private void button0_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "0";
-        }
-
-        private void buttonComma_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += ".";
-        }
-
-        private void buttonMultiply_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "*";
-        }
-
-        private void buttonMinus_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "-";
-        }
-
-        private void buttonPlus_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += "+";
+            textBox1.Text = "0";
+            result = 0;
         }
 
         private void buttonEqualSign_Click(object sender, EventArgs e)
         {
-            int result = int.Parse(textBox1.Text);
-            textBox1.Text += "=";
-            textBox1.Text += ;
+            if (operation == "+")
+            {
+                textBox1.Text = (result + double.Parse(textBox1.Text)).ToString();
+            }
+            else if (operation == "-")
+            {
+                textBox1.Text = (result - double.Parse(textBox1.Text)).ToString();
+            }
+            else if (operation == "*")
+            {
+                textBox1.Text = (result * double.Parse(textBox1.Text)).ToString();
+            }
+            else if (operation == "/") 
+            { 
+                textBox1.Text = (result / double.Parse(textBox1.Text)).ToString();
+            }
+            result = double.Parse(textBox1.Text);
+            label1.Text = "";
+        }
+
+        private void buttonErase_Click_1(object sender, EventArgs e)
+        {
+            string erased_text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
+            textBox1.Text = erased_text;
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = true;
+            panel2.Visible = false;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
+            panel2.Visible = true;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            double start, result;
+            start = double.Parse(textBox2.Text, CultureInfo.InvariantCulture);
+            if (comboBox1.Text == "Miles" && comboBox2.Text == "Kilometres")
+            {
+                result = start * 1.60934;
+                label5.Text = result.ToString();
+            }
+            else if (comboBox2.Text == "Miles" && comboBox1.Text == "Kilometres")
+            {
+                result = start / 1.60934;
+                label5.Text = result.ToString();
+            }
+            else if (comboBox1.Text == "Pounds" && comboBox2.Text == "Kilograms")
+            {
+                result = start * 0.453592;
+                label5.Text = result.ToString();
+            }
+            else if (comboBox2.Text == "Pounds" && comboBox1.Text == "Kilograms")
+            {
+                result = start / 0.453592;
+                label5.Text = result.ToString();
+            }
+            else if (comboBox2.Text == comboBox1.Text)
+            {
+                label5.Text = start.ToString();
+            }
+            else
+            {
+                label5.Text = "Something is wrong. Change it and then try again";
+            }
+            
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = true;
+            panel1.Visible = true;
         }
     }
 }
