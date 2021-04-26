@@ -8,6 +8,31 @@ namespace Chapter09ProgramClassDesign.zip
 {
     class clsDates
     {
+        public clsDates(int yr) : this()
+        {
+            year = yr;
+        }
+        public int Month
+        {
+            get
+            {
+                if(month == 0)
+                {
+                    return current.Month;
+                }
+                else
+                {
+                    return month;
+                }
+            }
+            set
+            {
+                if (value > 0 && value < 12)
+                {
+                    month = value;
+                }
+            }
+        }
         private static int[] daysInMonth =
         {
              0, 31, 28, 31, 30, 31, 30, 31,

@@ -1,0 +1,10 @@
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\bin\Debug\Chapter09ProgramClassDesign.zip.exe.config
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\bin\Debug\Chapter09ProgramClassDesign.zip.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\bin\Debug\Chapter09ProgramClassDesign.zip.pdb
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\obj\Debug\Chapter09ProgramClassDesign.zip.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\obj\Debug\Chapter09ProgramClassDesign.zip.frmMain.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\obj\Debug\Chapter09ProgramClassDesign.zip.Properties.Resources.resources
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\obj\Debug\Chapter09ProgramClassDesign.zip.csproj.GenerateResource.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\obj\Debug\Chapter09ProgramClassDesign.zip.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\obj\Debug\Chapter09ProgramClassDesign.zip.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\Chapter09ProgramClassDesign.zip\Chapter09ProgramClassDesign.zip\obj\Debug\Chapter09ProgramClassDesign.zip.pdb
