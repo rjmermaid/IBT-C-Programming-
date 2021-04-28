@@ -1,0 +1,7 @@
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\FinalExamPracticeTest\FinalExamPracticeTest\bin\Debug\FinalExamPracticeTest.exe.config
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\FinalExamPracticeTest\FinalExamPracticeTest\bin\Debug\FinalExamPracticeTest.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\FinalExamPracticeTest\FinalExamPracticeTest\bin\Debug\FinalExamPracticeTest.pdb
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\FinalExamPracticeTest\FinalExamPracticeTest\obj\Debug\FinalExamPracticeTest.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\FinalExamPracticeTest\FinalExamPracticeTest\obj\Debug\FinalExamPracticeTest.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\FinalExamPracticeTest\FinalExamPracticeTest\obj\Debug\FinalExamPracticeTest.exe
+C:\Users\Daniyar\Documents\GitHub\IBT-C-Programming-\FinalExamPracticeTest\FinalExamPracticeTest\obj\Debug\FinalExamPracticeTest.pdb
