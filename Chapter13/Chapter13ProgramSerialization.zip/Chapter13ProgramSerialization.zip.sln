@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter13ProgramSerialization.zip", "Chapter13ProgramSerialization.zip\Chapter13ProgramSerialization.zip.csproj", "{7715FCB6-E488-499D-A02E-525BFCA8A331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7715FCB6-E488-499D-A02E-525BFCA8A331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7715FCB6-E488-499D-A02E-525BFCA8A331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7715FCB6-E488-499D-A02E-525BFCA8A331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7715FCB6-E488-499D-A02E-525BFCA8A331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E66226C-C4E2-41A8-A22C-0616AFF050C3}
+	EndGlobalSection
+EndGlobal
