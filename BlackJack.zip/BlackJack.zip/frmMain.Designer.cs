@@ -29,17 +29,6 @@ namespace BlackJack.zip
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // frmMain
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmMain";
-            this.Text = "frmMain";
-            this.ResumeLayout(false);
-
             this.dealButton = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -63,9 +52,11 @@ namespace BlackJack.zip
             this.dealButton.TabIndex = 3;
             this.dealButton.Text = "Start";
             this.dealButton.UseVisualStyleBackColor = true;
+            this.dealButton.Click += new System.EventHandler(this.dealButton_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::BlackJack.zip.Properties.Resources.b1fv;
             this.pictureBox2.Location = new System.Drawing.Point(154, 137);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(71, 96);
@@ -74,6 +65,7 @@ namespace BlackJack.zip
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::BlackJack.zip.Properties.Resources.b1fv;
             this.pictureBox1.Location = new System.Drawing.Point(77, 137);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(71, 96);
@@ -96,6 +88,7 @@ namespace BlackJack.zip
             this.hitMeButton.TabIndex = 6;
             this.hitMeButton.Text = "Deal";
             this.hitMeButton.UseVisualStyleBackColor = true;
+            this.hitMeButton.Click += new System.EventHandler(this.hitMeButton_Click);
             // 
             // resetButton
             // 
@@ -105,6 +98,7 @@ namespace BlackJack.zip
             this.resetButton.TabIndex = 7;
             this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = true;
+            this.resetButton.Click += new System.EventHandler(this.resetButton_Click_1);
             // 
             // button1
             // 
@@ -114,9 +108,11 @@ namespace BlackJack.zip
             this.button1.TabIndex = 8;
             this.button1.Text = "Player Stop";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.PlayerStop_Click);
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::BlackJack.zip.Properties.Resources.b1fv;
             this.pictureBox4.Location = new System.Drawing.Point(77, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(71, 96);
@@ -141,7 +137,7 @@ namespace BlackJack.zip
             this.label2.TabIndex = 12;
             this.label2.Text = "Banker";
             // 
-            // Form1
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,13 +152,15 @@ namespace BlackJack.zip
             this.Controls.Add(this.dealButton);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "frmMain";
             this.Text = "Blackjack";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
